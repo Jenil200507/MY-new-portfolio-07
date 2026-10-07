@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Jenil Patel">
+  <title>Jenil Patel | Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Jenil Patel</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#mainNav" aria-controls="mainNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero-section">
+    <div class="container text-center">
+      <div class="profile-placeholder mx-auto mb-3" aria-hidden="true">JP</div>
+      <h1 class="display-5 fw-bold text-uppercase">Jenil Patel</h1>
+      <p class="lead fw-semibold mb-2">B.Tech IT Student</p>
+      <p class="text-muted mb-0">Web Development | Programming | Data Science</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" class="section-block">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="content-card h-100">
+              <h2>About Me</h2>
+              <p>
+                Hello! I am Jenil Patel, a B.Tech Information Technology student
+                interested in web development, programming and data science.
+                I enjoy learning new technologies and building practical projects.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" id="skills">
+            <div class="content-card h-100">
+              <h2>Skills</h2>
+              <div class="skill-list">
+                <span>C</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" id="education">
+            <div class="content-card h-100">
+              <h2>Education</h2>
+              <ul class="timeline-list">
+                <li><strong>B.Tech in Information Technology</strong><br>
+                  Currently pursuing
+                </li>
+                <li><strong>Higher Secondary Education</strong><br>
+                  Completed
+                </li>
+                <li><strong>Secondary Education</strong><br>
+                  Completed
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" id="contact">
+            <div class="content-card h-100">
+              <h2>Contact Me</h2>
+
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark">Send Message</button>
+                <div id="formMessage" class="mt-3" role="status"></div>
+              </form>
+
+              <hr>
+
+              <div class="contact-details">
+                <p><strong>Email:</strong>
+                  <a href="mailto:pateljenil476@gmail.com">pateljenil476@gmail.com</a>
+                </p>
+                <p><strong>Phone:</strong>
+                  <a href="tel:+919662997407">9662997407</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <small>JENIL PATEL &copy; 2026 | Personal Portfolio</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

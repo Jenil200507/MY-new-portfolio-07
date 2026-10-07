@@ -1,0 +1,116 @@
+/* Jenil Patel Portfolio - custom styling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f7fa;
+  color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.hero-section {
+  background: #ffffff;
+  padding: 58px 20px 52px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.profile-placeholder {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #e9ecef;
+  border: 5px solid #f1f3f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.section-block {
+  padding: 42px 0 55px;
+}
+
+.content-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 28px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.content-card h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.content-card p {
+  line-height: 1.7;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-list span {
+  background: #212529;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.timeline-list {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.timeline-list li {
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.timeline-list li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-details p {
+  margin-bottom: 8px;
+}
+
+.contact-details a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    padding: 45px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .content-card {
+    padding: 22px;
+  }
+}
